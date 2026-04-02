@@ -1,0 +1,6 @@
+# Comments
+Comments are used to add explanatory notes within the code. They are ignored by the compiler and are meant for human understanding.
+Single line comment -> #
+Multi-line comment -> """ ...
+                      ....
+                      """
