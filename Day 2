@@ -1,6 +1,46 @@
+Today I learned about Built-in functions, variables, numbers, and comments.
+
 # Comments
 Comments are used to add explanatory notes within the code. They are ignored by the compiler and are meant for human understanding.
 Single line comment -> #
 Multi-line comment -> """ ...
                       ....
                       """
+# Built-in functions
+There are a lot of built-in functions in Python. [len(), type(), int(), float(), sum(), min(), max(), sorted()]
+We do not use reserved words to declare variables or functions.
+
+# Variables
+Variables store data in a computer memory. A variable refers to a memory address where data is stored.
+Python has several rules for naming variables:
+1. must start with a letter or the underscore
+2. cannot start with a number
+3. no special characters except '_' can be used
+4. case sensitive
+
+input() -> built-in function to take input from users.
+
+Type casting -> converting one data type to another.
+
+Numbers in python are integers, floating point numbers, and complex numbers.
+
+Exercises:
+1. Declare a variable named num and assign it the value 3.14.
+num = 3.14
+print(f'num = {num}')
+
+2. Write code that initializes a variable named var with the value 5.
+var = 5
+print(f'var = {var}')
+
+3. Store the string I am learning to code with Febia! in a variable named python.
+python = "I am learning to code with Febia!"
+print(f'Python = "{python}"')
+
+4. Store the string Python is awesome! in a variable named favorite_language.
+favorite_language = "Python is awesome!"
+print(f'favorite_language = "{favorite_language}"')
+
+5. Declare a variable named nothing and assign it the value None.
+nothing = None
+print(f'nothing = {nothing}')
