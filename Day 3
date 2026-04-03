@@ -1,0 +1,134 @@
+Today I learned about operators
+
+Also studied about Boolean values
+
+Operators: 
+1. Assignment operator (=)
+2. Arithmetic operators(+, -, *, /, //, %, **)
+3. Comparison operators (==, !=, <, >, <=, >=, is, is not, in, not in)
+4. Logical operators (and, or, not)
+
+1. Declare a variable named boolean and assign it the value True.
+boolean = True
+print(f'boolean = {boolean}')
+
+2. Declare a variable named flag and assign it the value False.
+flag = False
+print(f'flag = {flag}')
+
+3. Write code that initializes the following variables:
+  - k with the value 88 (note: lowercase 'k')
+  - PI with the value 3.14 (note: uppercase 'PI')
+  - name with the value “Bob”.
+k = 88
+PI = 3.14
+name = "Bob"
+print(f"k = {k}")
+print(f"PI = {PI}")
+print(f"name = {name}")
+
+4. Write a code that initializes two variables, a and b, with the values 5.2 and 2.6 (respectively).
+After that, initialize another variable c that will hold the result of a / b.
+a = 5.2
+b = 2.6
+c = a / b
+print(f"a = {a}, b = {b}, c = {c}");
+
+5. Write a code that initializes two variables, x and y, with the values 12.5 and 3.5 (respectively).
+After that, initialize another variable z that will hold the result of x * y.
+x = 12.5
+y = 3.5
+z = x * y 
+print(f"x = {x}, y = {y}, z = {z}")
+
+6. Write a code that initializes three variables, a, b and c with the values 9, 2, and 11 (respectively).
+After that, initialize the following variables:
+  - d that will hold the result of a modulo 2 
+  - e that will hold the result of b modulo 3
+  - f that will hold the result of c modulo 10
+Check out the result and see how different dividends and divisors affect the result.
+a = 9
+b = 2
+c = 11
+d = a % 2
+e = b % 3
+f = c % 10
+print(f"a = {a}")
+print(f"b = {b}")
+print(f"c = {c}")
+print(f"d = {d}")
+print(f"e = {e}")
+print(f"f = {f}")
+
+7. Write a code that initializes three variables, x, y and z with the values 15, 4, and 23 (respectively).
+After that, initialize the following variables:
+  - w that will hold the remainder of x divided by y  
+  - v that will hold the remainder of z divided by x
+  - u that will hold the remainder of z divided by y
+Use the % operator for modulo (remainder).
+x = 15
+y = 4
+z = 23
+w = x % y
+v = z % x
+u = z % y 
+print(f"x = {x}")
+print(f"y = {y}")
+print(f"z = {z}")
+print(f"w = {w}")
+print(f"v = {v}")
+print(f"u = {u}")
+
+8. Write a code that initializes three variables, x, y and z with the values 15, 4, and 23 (respectively).
+After that, initialize the following variables:
+  - w that will hold the remainder of x divided by y  
+  - v that will hold the remainder of z divided by x
+  - u that will hold the remainder of z divided by y
+x = 15
+y = 4
+z = 23
+w = x % y
+v = z % x
+u = z % y 
+print(f"x = {x}")
+print(f"y = {y}")
+print(f"z = {z}")
+print(f"w = {w}")
+print(f"v = {v}")
+print(f"u = {u}")
+
+9. You are given a code with initialization of count. (Don't delete this line!)
+Your task is to add the following operations, in this order:
+  - Add 4 to count
+  - Multiply count by 2
+  - Subtract 1 from count
+count = 0
+count += 4
+count *= 2
+count -= 1
+print(f"count = {count}")
+
+10. You are given a code with initialization of score. (Don't delete this line!)
+Your task is to modify the score variable using arithmetic shortcuts, in this order:
+  - Divide score by 2
+  - Add 10 to score
+  - Multiply score by 3
+score = 100
+score /= 2
+score += 10
+score *= 3
+print(f"score = {score}")
+
+11. Write a script that initializes 2 variables n1 and n2 with the values 8 and 9 (accordingly).
+After that initialize another variable n3 that will hold whether n1 is bigger than n2.
+n1 = 8
+n2 = 9
+n3 = n1 > n2
+print(f"n1 = {n1}, n2 = {n2}, n3 = {n3}")
+
+12. Write a script that initializes 2 variables x and y with the values 15 and 10 (accordingly).
+After that initialize another variable z that will hold whether x is less than or equal to y.
+x = 15
+y = 10
+z = x <= y 
+print(f"x = {x}, y = {y}, z = {z}")
