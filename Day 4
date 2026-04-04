@@ -1,0 +1,13 @@
+Day 4
+
+Today I learned about Strings
+
+- len()
+- Single line string, multiline string
+- String concatenation
+- Escape sequence
+- String formatting
+- String indexing
+- String slicing (reversing)
+Different methods: capitalize(), count(), endswith(), expandtabs(), find(), rfind(), format(), index(), rindex(), isalnum(), isalpha(), isdecimal(), isdigit(), isnumeric(), isidentifier(), 
+  islower(), isupper(), join(), strip(), replace(), split(), title(), swapcase(), startswith()
