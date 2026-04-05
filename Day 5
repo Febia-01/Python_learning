@@ -1,0 +1,12 @@
+Day 5
+
+Today I learned about Lists
+
+Collection data types : List, Tuple, set, dictionary
+List: ordered, mutable (modifiable)
+- len()
+- index starts from 0 (zero)
+- list unpacking (*)
+- slicing
+- in - to check an iten is in list or not
+append(), insert(), remove(), pop(), del, clear(), copy(), joining list - +, extencd(), count(), index(), reverse, sort(), sorted()
