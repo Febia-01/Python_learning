@@ -11,3 +11,11 @@ Today I learned about Strings
 - String slicing (reversing)
 Different methods: capitalize(), count(), endswith(), expandtabs(), find(), rfind(), format(), index(), rindex(), isalnum(), isalpha(), isdecimal(), isdigit(), isnumeric(), isidentifier(), 
   islower(), isupper(), join(), strip(), replace(), split(), title(), swapcase(), startswith()
+
+1. Store the string I am learning to code with Coddy! in a variable named coddy.
+coddy = "I am learning to code with Coddy!"
+print(f'coddy = "{coddy}"')
+
+2. Store the string Python is awesome! in a variable named favorite_language.
+favorite_language = "Python is awesome!"
+print(f'favorite_language = "{favorite_language}"')
