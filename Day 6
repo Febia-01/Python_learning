@@ -1,1 +1,11 @@
-# Tuples
+Today, I learned about Tuples.
+
+- ordered and unchangeable (immutable)
+- tuple() - to create an empty tuple.
+- len() - length of tuple
+- indexing - negative or positive
+- slicing a tuple
+- tuple to list
+- 'in' - to check an item's presence
+- tpl3 = tpl1 + tpl2
+- del - to delete tuple
