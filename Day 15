@@ -1,0 +1,12 @@
+Today I learned about Python Error Types
+
+- SyntaxError
+- NameError
+- IndexError
+- ModuleNotFoundError
+- AttributeError
+- KeyError
+- TypeError
+- ImportError
+- ValueError
+- ZeroDivisionError
