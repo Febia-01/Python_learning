@@ -132,3 +132,110 @@ x = 15
 y = 10
 z = x <= y 
 print(f"x = {x}, y = {y}, z = {z}")
+
+13. Complete the code to determine if a person is eligible to drive based on their age and license status.
+A person is eligible to drive when:
+  - They are at least 18 years old AND
+  - They have a valid driving license
+age = 20
+has_license = True
+result = age >= 18 and has_license
+print("Eligible to drive:", result)
+
+14. You are given a code. Assign values to x1 and x2 such that x3 evaluates to False.
+  - x1 and x2 should be assigned Boolean values (True or False) or Boolean expressions.
+x1 = True
+x2 = False
+x3 = x1 and x2
+print(f"x3 = {x3}")
+
+15. Replace the values of variables b1 and b2 with numbers so that b3 evaluates to True.
+  - b3 will be True when the multiplication of b1 and b2 is greater than their addition.
+b1 = 5
+b2 = 5
+b3 = (b1 * b2) > (b1 + b2)
+print(f"b3 = {b3}")
+
+16. Replace the values of variables a, b, and c with boolean values (True or False) so that result evaluates to True.
+  - result will be True when the expression (a or b) and not c is true. Use the logical operators or, and, and not to solve this challenge.
+a = True
+b = False
+c = False
+result = (a or b) and not c
+print(f"result = {result}")
+
+17. You are given a code with variables b1, b2, and b3 that have question marks instead of values. Replace each question mark with either True or False so that the final result b4 will be True.
+b1 = True
+b2 = True
+b3 = False
+b4 = b1 and b2 and (not b3)
+print(f"b4 = {b4}")
+
+18. Write code that checks if a person is eligible to drive. A person is eligible to drive if ALL of the following conditions are met:
+  - The person is at least 18 years old
+  - The person has a license
+  - The person has insurance
+age = int(input())
+has_license = input() == "true"
+has_insurance = input() == "true"
+result = age >= 18 and has_license and has_insurance 
+print(result)
+
+19. You're helping a weather app determine suitable outdoor activities based on weather conditions. Create a program that uses logical operations to determine if certain activities are possible.
+  Initialize the following variables:
+  - is_sunny with the value True
+  - temperature with the value 25
+  - wind_speed with the value 10
+  - water_temperature with the value 22
+  Write the following logical expressions to determine if:
+  - can_go_hiking: It's sunny AND temperature is above 15°C AND wind speed is below 20 km/h
+  - can_go_swimming: It's sunny AND temperature is above 20°C AND water temperature is above 18°C
+  - cannot_go_outside: It's NOT sunny OR temperature is below 10°C OR wind speed is above 30 km/h
+is_sunny = True
+temperature = 25
+wind_speed = 10
+water_temperature = 22
+can_go_hiking = is_sunny and temperature > 15 and wind_speed < 20
+can_go_swimming = is_sunny and temperature > 20 and water_temperature > 18
+cannot_go_outside = not (is_sunny) or temperature < 10 or wind_speed > 30
+print("Can go hiking:", can_go_hiking)
+print("Can go swimming:", can_go_swimming)
+print("Cannot go outside:", cannot_go_outside)
+
+20. You're helping a pet shop create a system to determine if they can sell a pet to a customer.
+Initialize the following variables:
+  - has_license with the value True
+  - has_space with the value True
+  - has_experience with the value False
+Write logical expressions to determine if:
+  - can_sell_regular_pet: Customer can buy a regular pet if they have EITHER a license OR experience, AND they must have space
+  - can_sell_exotic_pet: Customer can buy an exotic pet if they have BOTH a license AND experience, AND they must have space
+  - cannot_sell_any_pet: The shop CANNOT sell any pet if the customer has NO license AND NO experience, OR they have NO space
+has_license = True
+has_space = True
+has_experience = False
+can_sell_regular_pet = (has_license or has_experience) and has_space
+can_sell_exotic_pet = has_license and has_experience and has_space
+cannot_sell_any_pet = (not (has_license) and not (has_experience)) or not (has_space)
+print("Can sell regular pet:", can_sell_regular_pet)
+print("Can sell exotic pet:", can_sell_exotic_pet)
+print("Cannot sell any pet:", cannot_sell_any_pet)
+
+21. You're helping a transportation company create a system to determine if a person can drive certain vehicles.
+  Initialize the following variables:
+  - has_license with the value True
+  - has_experience with the value False
+  - has_clean_record with the value True
+  Write the following logical expressions to determine if:
+  - can_drive_car: Person needs a license AND a clean record
+  - can_drive_truck: Person needs a license AND experience AND a clean record
+  - cannot_drive_any: Person has NO license OR NO clean record
+has_license = True
+has_experience = False
+has_clean_record = True
+can_drive_car = has_license and has_clean_record
+can_drive_truck = has_license and has_experience and has_clean_record
+cannot_drive_any = not (has_license) or not (has_clean_record)
+print("Can drive car:", can_drive_car)
+print("Can drive truck:", can_drive_truck)
+print("Cannot drive any:", cannot_drive_any)
