@@ -7,3 +7,85 @@ Today I learned about Conditionals
 - Nested Conditions
 - If Condition and Logical Operators
 - If and Or Logical Operators
+
+1. The variables a and b have missing values, fill them so that the code inside the if statement will be executed! (make sure the if condition is true)
+At the end of the program, the value of c should be 3.
+
+    a = 11
+    b = 11
+    c = 0
+    if a >= b and not b < 10:
+        c = 2
+    c += 1
+    print(f"c = {c}")
+
+2. The variables a and b have missing values. Fill them so that the code inside the if statement will be executed! (make sure the if condition is true)
+At the end of the program, the value of c should be 3.
+
+    a = 5
+    b = 12
+    c = 0
+    if a < b or b >= 10:
+        c = 2
+    c += 1
+    print(f"c = {c}")
+
+3. You are given a code which gets as input a number that indicates the wind speed and stores it in a variable named wind.
+Your task is to initialize variable status based on the conditions:
+"Calm" if wind is smaller than 8,
+"Breeze" if wind is between 8 and 31 (including 8 and 31).
+"Gale" if wind is between 32 and 63 (including 32 and 63)
+"Storm" otherwise
+
+    wind = int(input()) 
+    status = "unset"
+    if wind < 8: 
+        status = "Calm"
+    elif wind >= 8 and wind <= 31:
+        status = "Breeze"
+    elif wind >= 32 and wind <= 63:
+        status = "Gale"
+    else:
+        status = "Storm"
+    print(f"status = {status}")
+
+4. You are given a code which gets as input a number that indicates the temperature in Celsius and stores it in a variable named temperature.
+Your task is to set the value of the weather variable based on the following conditions:
+"Freezing" if temperature is below 0,
+"Cold" if temperature is between 0 and 15 (including 0 and 15).
+"Mild" if temperature is between 16 and 25 (including 16 and 25)
+"Hot" otherwise
+
+    temperature = int(input()) 
+    weather = "unset"
+    if temperature < 0:
+        weather = "Freezing"
+    elif temperature >= 0 and temperature <= 15:
+        weather = "Cold"
+    elif temperature >= 16 and temperature <= 25:
+        weather = "Mild"
+    else:
+        weather = "Hot"
+    print(f"weather = {weather}")
+
+5. You are given a code which gets as input two numbers n1 and n2 and a character op.
+The possible values for op are '+', '-', '/' and '*'
+Your task is to set the variable result based on the conditions:
+if op is '+', set result with n1 + n2.
+if op is '-', set result with n1 - n2.
+if op is '/', set result with n1 / n2.
+if op is '*', set result with n1 * n2.
+
+    n1 = int(input()) 
+    n2 = int(input()) 
+    op = input() 
+    result = 0
+    if op == '+':
+        result = n1 + n2
+    elif op == '-':
+        result = n1 - n2
+    elif op == '/':
+        result = n1 / n2
+    else:
+        result = n1 * n2
+    print(f"result = {result}")
