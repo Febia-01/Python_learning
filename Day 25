@@ -1,0 +1,22 @@
+Today I learned about Pandas
+
+- Installing Pandas
+	- Importing Pandas
+	- Creating Pandas Series with Default Index
+	- Creating Pandas Series with custom index
+	- Creating Pandas Series from a Dictionary
+	- Creating a Constant Pandas Series
+	- Creating a Pandas Series Using Linspace
+- DataFrames
+	- Creating DataFrames from List of Lists
+	- Creating DataFrame Using Dictionary
+	- Creating DataFrames from a List of Dictionaries
+- Reading CSV File Using Pandas
+	- Data Exploration
+- Modifying a DataFrame
+	- Creating a DataFrame
+	- Adding a New Column
+	- Modifying column values
+	- Formatting DataFrame columns
+- Checking data types of Column values
+	- Boolean Indexing
