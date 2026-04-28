@@ -1,1 +1,9 @@
+Today I learned about Python with MongoDB
 
+- MongoDB setup 
+- Connection using Python
+- CRUD operations:
+	- Create
+	- Read
+	- Update
+	-Delete
