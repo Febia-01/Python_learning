@@ -1,1 +1,11 @@
+Today I learned about API
 
+- API
+- Building API
+- HTTP(Hypertext Transfer Protocol)
+- Structure of HTTP
+	- Initial Request Line(Status Line)
+	- Initial Response Line(Status Line)
+	- Header Fields
+	- The message body
+	- Request Methods 
