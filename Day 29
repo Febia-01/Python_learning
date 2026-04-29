@@ -1,1 +1,8 @@
+Today I learned about Building API
 
+- Structure of an API
+- Retrieving data using get
+- Getting a document by id
+- Creating data using POST
+- Updating using PUT
+- Deleting a document using Delete
